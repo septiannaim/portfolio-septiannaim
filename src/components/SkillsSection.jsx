@@ -4,19 +4,19 @@ import { cn } from "@/lib/utils";
 import BallCanvas from "./BallCanvas";
 
 const skills = [
-  { name: "HTML", icon: "/src/assets/tech/html.png" },
-  { name: "CSS", icon: "/src/assets/tech/css.png" },
-  { name: "JavaScript", icon: "/src/assets/tech/javascript.png" },
-  { name: "TypeScript", icon: "/src/assets/tech/typescript.png" },
-  { name: "React", icon: "/src/assets/tech/reactjs.png" },
-  { name: "Redux", icon: "/src/assets/tech/redux.png" },
-  { name: "Tailwind CSS", icon: "/src/assets/tech/tailwind.png" },
-  { name: "Node.js", icon: "/src/assets/tech/nodejs.png" },
-  { name: "MongoDB", icon: "/src/assets/tech/mongodb.png" },
-  { name: "Three.js", icon: "/src/assets/tech/threejs.svg" },
-  { name: "Git/GitHub", icon: "/src/assets/tech/git.png" },
-  { name: "Docker", icon: "/src/assets/tech/docker.png" },
-  { name: "Figma", icon: "/src/assets/tech/figma.png" },
+  { name: "HTML", icon: "/tech/html.png" },
+  { name: "CSS", icon: "/tech/css.png" },
+  { name: "JavaScript", icon: "/tech/javascript.png" },
+  { name: "TypeScript", icon: "/tech/typescript.png" },
+  { name: "React", icon: "/tech/reactjs.png" },
+  { name: "Redux", icon: "/tech/redux.png" },
+  { name: "Tailwind CSS", icon: "/tech/tailwind.png" },
+  { name: "Node.js", icon: "/tech/nodejs.png" },
+  { name: "MongoDB", icon: "/tech/mongodb.png" },
+  { name: "Three.js", icon: "/tech/threejs.svg" },
+  { name: "Git/GitHub", icon: "/tech/git.png" },
+  { name: "Docker", icon: "/tech/docker.png" },
+  { name: "Figma", icon: "/tech/figma.png" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];

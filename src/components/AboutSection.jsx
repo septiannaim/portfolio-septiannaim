@@ -38,6 +38,15 @@ export const AboutSection = () => {
               >
                 Download CV
               </a>
+
+              <a
+                href="/Portfolio-septian.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-2 rounded-full border border-secondary text-secondary hover:bg-secondary/10 transition-colors duration-300"
+              >
+                Lihat Portfolio
+              </a>
             </div>
           </div>
 

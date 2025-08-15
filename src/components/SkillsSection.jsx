@@ -31,6 +31,59 @@ export const SkillsSection = () => {
   return (
     <section id="skills" className="py-24 px-4 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
+        {/* Experience Section */}
+        <div className="mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
+            My <span className="text-primary">Experience</span>
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="bg-card p-6 rounded-lg shadow-xs card-hover">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center mr-4">
+                  <span className="text-2xl">💼</span>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-lg">Frontend Developer</h3>
+                  <p className="text-muted-foreground text-sm">2022 - Present</p>
+                </div>
+              </div>
+              <p className="text-sm text-muted-foreground">
+                Developing responsive web applications using React, TypeScript, and modern CSS frameworks.
+              </p>
+            </div>
+
+            <div className="bg-card p-6 rounded-lg shadow-xs card-hover">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center mr-4">
+                  <span className="text-2xl">🚀</span>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-lg">Full Stack Developer</h3>
+                  <p className="text-muted-foreground text-sm">2021 - 2022</p>
+                </div>
+              </div>
+              <p className="text-sm text-muted-foreground">
+                Built end-to-end solutions with Node.js, MongoDB, and React for various client projects.
+              </p>
+            </div>
+
+            <div className="bg-card p-6 rounded-lg shadow-xs card-hover">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center mr-4">
+                  <span className="text-2xl">🎨</span>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-lg">UI/UX Designer</h3>
+                  <p className="text-muted-foreground text-sm">2020 - 2021</p>
+                </div>
+              </div>
+              <p className="text-sm text-muted-foreground">
+                Created user-centered designs and prototypes using Figma and design thinking principles.
+              </p>
+            </div>
+          </div>
+        </div>
+
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           My <span className="text-primary"> Skills</span>
         </h2>

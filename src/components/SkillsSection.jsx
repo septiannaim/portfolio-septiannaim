@@ -4,19 +4,19 @@ import { cn } from "@/lib/utils";
 import BallCanvas from "./BallCanvas";
 
 const skills = [
-  { name: "HTML", icon: "/tech/html.png" },
-  { name: "CSS", icon: "/tech/css.png" },
-  { name: "JavaScript", icon: "/tech/javascript.png" },
-  { name: "TypeScript", icon: "/tech/typescript.png" },
-  { name: "React", icon: "/tech/reactjs.png" },
-  { name: "Redux", icon: "/tech/redux.png" },
-  { name: "Tailwind CSS", icon: "/tech/tailwind.png" },
-  { name: "Node.js", icon: "/tech/nodejs.png" },
-  { name: "MongoDB", icon: "/tech/mongodb.png" },
-  { name: "Three.js", icon: "/tech/threejs.svg" },
-  { name: "Git/GitHub", icon: "/tech/git.png" },
-  { name: "Docker", icon: "/tech/docker.png" },
-  { name: "Figma", icon: "/tech/figma.png" },
+  { name: "HTML", icon: "/tech/html.png", category: "frontend" },
+  { name: "CSS", icon: "/tech/css.png", category: "frontend" },
+  { name: "JavaScript", icon: "/tech/javascript.png", category: "frontend" },
+  { name: "TypeScript", icon: "/tech/typescript.png", category: "frontend" },
+  { name: "React", icon: "/tech/reactjs.png", category: "frontend" },
+  { name: "Redux", icon: "/tech/redux.png", category: "frontend" },
+  { name: "Tailwind CSS", icon: "/tech/tailwind.png", category: "frontend" },
+  { name: "Three.js", icon: "/tech/threejs.svg", category: "frontend" },
+  { name: "Node.js", icon: "/tech/nodejs.png", category: "backend" },
+  { name: "MongoDB", icon: "/tech/mongodb.png", category: "backend" },
+  { name: "Git/GitHub", icon: "/tech/git.png", category: "tools" },
+  { name: "Docker", icon: "/tech/docker.png", category: "tools" },
+  { name: "Figma", icon: "/tech/figma.png", category: "tools" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];
@@ -25,7 +25,7 @@ export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
 
   const filteredSkills = skills.filter(
-    (skill) => activeCategory === "all" || skill.name.toLowerCase().includes(activeCategory.toLowerCase())
+    (skill) => activeCategory === "all" || skill.category === activeCategory
   );
 
   return (

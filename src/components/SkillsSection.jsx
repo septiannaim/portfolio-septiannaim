@@ -40,45 +40,60 @@ export const SkillsSection = () => {
             <div className="bg-card p-6 rounded-lg shadow-xs card-hover">
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-2xl">💼</span>
+                  <span className="text-2xl">🎓</span>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg">Frontend Developer</h3>
-                  <p className="text-muted-foreground text-sm">2022 - Present</p>
+                  <h3 className="font-semibold text-lg">Assistant Lecturer - IoT Course</h3>
+                  <p className="text-muted-foreground text-sm">Universitas Brawijaya • Feb 2025 - Jul 2025</p>
                 </div>
               </div>
               <p className="text-sm text-muted-foreground">
-                Developing responsive web applications using React, TypeScript, and modern CSS frameworks.
+                Assisting in teaching IoT topics, guiding practical projects, and coordinating discussions on MQTT, device communication, and Arduino/ESP32 programming.
               </p>
             </div>
 
             <div className="bg-card p-6 rounded-lg shadow-xs card-hover">
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-2xl">🚀</span>
+                  <span className="text-2xl">📱</span>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg">Full Stack Developer</h3>
-                  <p className="text-muted-foreground text-sm">2021 - 2022</p>
+                  <h3 className="font-semibold text-lg">Android Developer</h3>
+                  <p className="text-muted-foreground text-sm">Bangkit Academy 2024 • Feb 2024 - Jul 2024</p>
                 </div>
               </div>
               <p className="text-sm text-muted-foreground">
-                Built end-to-end solutions with Node.js, MongoDB, and React for various client projects.
+                Developed East Java tourism app using Jetpack Compose, integrated ML models, and collaborated with cross-functional teams using agile methodology.
               </p>
             </div>
 
             <div className="bg-card p-6 rounded-lg shadow-xs card-hover">
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-2xl">🎨</span>
+                  <span className="text-2xl">🔬</span>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg">UI/UX Designer</h3>
-                  <p className="text-muted-foreground text-sm">2020 - 2021</p>
+                  <h3 className="font-semibold text-lg">Laboratory Assistant</h3>
+                  <p className="text-muted-foreground text-sm">IoT & Human-Centered Design • Feb 2024 - Jul 2024</p>
                 </div>
               </div>
               <p className="text-sm text-muted-foreground">
-                Created user-centered designs and prototypes using Figma and design thinking principles.
+                Provided technical support for IoT systems, conducted usability testing, and built prototypes using Arduino and ESP32 microcontrollers.
+              </p>
+            </div>
+
+            <div className="bg-card p-6 rounded-lg shadow-xs card-hover">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center mr-4">
+                  <span className="text-2xl">🌐</span>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-lg">IoT Engineer</h3>
+                  <p className="text-muted-foreground text-sm">PT Connecting Dots Nusa</p>
+                </div>
+              </div>
+              <p className="text-sm text-muted-foreground">
+                Designed IoT solutions using LoRa and MQTT, developed Arduino/ESP32 devices, and integrated with cloud platforms for real-time monitoring.
               </p>
             </div>
           </div>

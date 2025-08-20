@@ -30,13 +30,13 @@ const projects = [
   },
   {
     id: 4,
-    title: "E-commerce Platform",
+    title: "IoT Dashboard with ESP32",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project1.png",
-    tags: ["React", "Node.js", "Stripe"],
+      "IoT Dashboard developed using CodeIgniter 3 (CI3) framework, integrating ESP32 for real-time monitoring of environmental data. The dashboard collects data from DHT22 Humidity Sensor and Ultrasonic Sensor, providing remote access to humidity and distance measurements. Features real-time data updates, responsive design, and remote monitoring capabilities.",
+    image: "/projects/Web-CI3.png",
+    tags: ["CodeIgniter 3", "ESP32", "IoT", "DHT22 Sensor", "Ultrasonic Sensor", "Real-time Monitoring", "PHP", "WiFi"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/septiannaim/IoT-CI-3",
   },
   {
     id: 5,
@@ -64,9 +64,9 @@ export const ProjectsSection = () => {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, key) => (
+          {projects.map((project) => (
             <div
-              key={key}
+              key={project.id}
               className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
             >
               <div className="h-48 overflow-hidden">
@@ -79,8 +79,11 @@ export const ProjectsSection = () => {
 
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {project.tags.map((tag) => (
-                    <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
+                  {project.tags.map((tag, index) => (
+                    <span 
+                      key={`${project.id}-${tag}-${index}`}
+                      className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"
+                    >
                       {tag}
                     </span>
                   ))}

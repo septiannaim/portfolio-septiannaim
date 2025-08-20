@@ -44,7 +44,8 @@ export const SkillsSection = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg">Assistant Lecturer - IoT Course</h3>
-                  <p className="text-muted-foreground text-sm">Universitas Brawijaya • Feb 2025 - Jul 2025</p>
+                  <p className="text-muted-foreground text-sm">Universitas Brawijaya</p>
+                  <p className="text-muted-foreground text-sm">Feb 2025 - Jul 2025</p>
                 </div>
               </div>
               <p className="text-sm text-muted-foreground">
@@ -59,7 +60,8 @@ export const SkillsSection = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg">Android Developer</h3>
-                  <p className="text-muted-foreground text-sm">Bangkit Academy 2024 • Feb 2024 - Jul 2024</p>
+                  <p className="text-muted-foreground text-sm">Bangkit Academy 2024</p>
+                  <p className="text-muted-foreground text-sm">Feb 2024 - Jul 2024</p>
                 </div>
               </div>
               <p className="text-sm text-muted-foreground">
@@ -74,7 +76,8 @@ export const SkillsSection = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg">Laboratory Assistant</h3>
-                  <p className="text-muted-foreground text-sm">IoT & Human-Centered Design • Feb 2024 - Jul 2024</p>
+                  <p className="text-muted-foreground text-sm">IoT & Human-Centered Design</p>
+                  <p className="text-muted-foreground text-sm">Feb 2024 - Jul 2024</p>
                 </div>
               </div>
               <p className="text-sm text-muted-foreground">
@@ -90,6 +93,7 @@ export const SkillsSection = () => {
                 <div>
                   <h3 className="font-semibold text-lg">IoT Engineer</h3>
                   <p className="text-muted-foreground text-sm">PT Connecting Dots Nusa</p>
+                  <p className="text-muted-foreground text-sm">Sep 2024 - Jan 2025</p>
                 </div>
               </div>
               <p className="text-sm text-muted-foreground">

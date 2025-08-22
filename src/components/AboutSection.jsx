@@ -15,12 +15,12 @@ export const AboutSection = () => {
               Passionate Web Developer, Mobile Developer, and IoT Developer
             </h3>
 
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground text-left">
             I'm a software engineer with experience in backend development, IoT systems, mobile apps, and machine learning. I specialize in building scalable, 
             high-performance solutions and enjoy solving complex problems using modern technologies like LoRa, Arduino, ESP32, Jetpack Compose, and Laravel.
             </p>
 
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground text-left">
             I'm driven by a passion for taking on new challenges and delivering solutions that have a meaningful impact on real-world problems,
             whether through software development, IoT innovations, or mobile applications.
             </p>
@@ -45,7 +45,7 @@ export const AboutSection = () => {
                 rel="noopener noreferrer"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
-                Lihat Portfolio
+                View Portfolio
               </a>
             </div>
           </div>

@@ -43,7 +43,7 @@ export const SkillsSection = () => {
                   <span className="text-2xl">🎓</span>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg">Assistant Lecturer - IoT Course</h3>
+                  <h3 className="font-semibold text-lg">Assistant Lecturer</h3>
                   <p className="text-muted-foreground text-sm">Universitas Brawijaya</p>
                   <p className="text-muted-foreground text-sm">Feb 2025 - Jul 2025</p>
                 </div>
